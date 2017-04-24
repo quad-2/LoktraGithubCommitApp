@@ -14,10 +14,6 @@ import com.squareup.picasso.Picasso;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by praveen on 24/4/17.
- */
-
 public class CommitAdapter extends RecyclerView.Adapter<CommitAdapter.ViewHolder> {
 
     private List<GithubDatum> commitList = new ArrayList<>();
